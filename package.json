@@ -15,5 +15,18 @@
   "bugs": {
     "url": "https://github.com/AMPotter/image-gallery-server/issues"
   },
-  "homepage": "https://github.com/AMPotter/image-gallery-server#readme"
+  "homepage": "https://github.com/AMPotter/image-gallery-server#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.9",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "eslint": "^4.6.1",
+    "mocha": "^3.5.0",
+    "nodemon": "^1.11.0"
+  }
 }
